@@ -1,0 +1,35 @@
+.contain {
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    height: 12vh;
+    font-family: 22px scheme;
+    text-transform: uppercase;
+    color: #fff8f0;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: flex;
+    width: 25%;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1vh;
+    letter-spacing: 1.52px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+
+.link {
+    text-decoration: none;
+    color: #fff8f0;
+}
+.header {
+    font-size: 3vh;
+}
