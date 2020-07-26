@@ -6,8 +6,8 @@ class Map extends Component {
         super(props);
         this.state = {
             currentLocation: {
-                lat: -32.397,
-                lng: 150.644
+                lat: 35.1005717,
+                lng: -85.3247381
             }
         }
     }
@@ -28,7 +28,7 @@ class Map extends Component {
 const ConnectedMap = withScriptjs(withGoogleMap(Map))
 
 ConnectedMap.defaultProps = {
-    googleMapURL: "https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyAR0V4owyRtwnQWLQcGfkCehEYZzPeTp5o",
+    googleMapURL: "https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyCqtUNS0aJz0VlIwO-YFJgrXKpuQ7Atf5g",
     loadingElement: <div style={{ height: `100%` }} />,
     containerElement: <div style={{ height: `100%` }} />,
     mapElement: <div style={{ height: `100%` }} />,

@@ -8,7 +8,6 @@ import Map from './Map'
 export default function Home() {
     return (
         <div className="main">
-            <Header />
             <div  className="carousel">
                 <Carousel>
                         <Carousel.Item className="cIItem">
