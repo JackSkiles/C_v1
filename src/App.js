@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-      
+        <Header />  
         <Switch>
           <Route path="/" exact component={Home} />
         </Switch>
