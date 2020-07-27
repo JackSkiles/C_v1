@@ -8,4 +8,10 @@ export default function Services() {
         </div>
         )
     }
+<<<<<<< HEAD
     
+=======
+    
+
+
+>>>>>>> 1c680294c1a4ab150b105fdc45c96803112050be
