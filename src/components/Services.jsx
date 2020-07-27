@@ -1,5 +1,6 @@
 import React from 'react';
 import './pages.css';
+import Footer from  './Footer'
 
 
 export default function Services() {
