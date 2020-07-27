@@ -12,6 +12,7 @@ function App() {
         <Header />  
         <Switch>
           <Route path="/" exact component={Home} />
+          <Route path="/services" exact component={Services} /> 
         </Switch>
       </Router>
     </div>
