@@ -28,7 +28,7 @@ class Map extends Component {
 const ConnectedMap = withScriptjs(withGoogleMap(Map))
 
 ConnectedMap.defaultProps = {
-    googleMapURL: "https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyDgLrJlYmjPsgyA-R8GJgl1vaAyTiQlGeU",
+    googleMapURL: "https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyCqtUNS0aJz0VlIwO-YFJgrXKpuQ7Atf5g",
     loadingElement: <div style={{ height: `100%` }} />,
     containerElement: <div style={{ height: `100%` }} />,
     mapElement: <div style={{ height: `100%` }} />,
