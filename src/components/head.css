@@ -62,10 +62,6 @@
     width: 2vh;
 }
 
-.contact {
-    width: 95%;
-}
-
 .drop-down {
     color: white;
 }
@@ -103,6 +99,12 @@
 
 @media screen and (max-width: 980px){
     .link {
-        color: gray;
+        color: rgb(88, 88, 88);
+    }
+}
+
+@media screen and (max-width: 980px){
+    .contact {
+        width: 95%
     }
 }
