@@ -5,11 +5,13 @@
 .cIItem {
     display: flex;
     justify-content: center;
+    height: 70vh;
     align-items: center;
+    overflow: hidden;
 }
 
 #img {
-    height: 70vh;
+    height: 80vh;
 }
 
 

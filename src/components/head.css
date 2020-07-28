@@ -12,7 +12,8 @@
 .title {
     display: flex;
     align-items: center;
-    justify-content: flex;
+    text-align: start;
+    padding-left: 2%;
     width: 25%;
     font-weight: 400;
     font-style: normal;
