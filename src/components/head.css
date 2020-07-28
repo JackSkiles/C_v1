@@ -71,39 +71,24 @@
 }
 
 @media screen and (max-width: 980px){
-    .links {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 980px){
     .drop {
         display: flex;
         justify-content: center;
         align-items: center;
         width: 30%;
     }
-}
-
-@media screen and (max-width: 980px){
     .header {
         font-size: 2vh;
     }
-}
-
-@media screen and (max-width: 980px){
-    .titles {
-        width: 50%
+    .links {
+        display: none;
     }
-}
-
-@media screen and (max-width: 980px){
     .link {
         color: rgb(88, 88, 88);
     }
-}
-
-@media screen and (max-width: 980px){
+    .titles {
+        width: 50%
+    }
     .contact {
         width: 95%
     }
