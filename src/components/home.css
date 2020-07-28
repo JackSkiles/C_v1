@@ -16,7 +16,7 @@
 
 
 .theMap{ 
-    margin-top: 10px;
+    margin: 7vh 0 7vh 0;
     width: 60%; 
     height: 55vh;
 } 
@@ -35,5 +35,20 @@
 } 
 
 .homeText p {
+    text-align: start;
     font-size: 1.5rem;
+}
+
+@media screen and (max-width: 980px){
+    .homeText {
+        font-size: 1.5rem;
+        width: 85%
+    }
+    .homeText p {
+        font-size: 1rem;
+    }
+    .theMap{
+        width: 90%;
+        height: 45vh
+    }
 }

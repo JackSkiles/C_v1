@@ -33,3 +33,9 @@
 .textBox {
     display: block;
 }
+
+@media screen and (max-width: 980px){
+    .textCont, .textCont2 {
+        width: 95%;
+    }
+}
