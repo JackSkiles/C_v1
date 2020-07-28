@@ -66,7 +66,7 @@ export default function Header() {
                             </Dropdown.Toggle>
                             <Dropdown.Menu className="dropMenu2">
                                 <Dropdown.Item><Link to="/" className="link2"><h3 className="text">BELIEFS</h3></Link></Dropdown.Item>
-                                <Dropdown.Item><Link to="/" className="link2"><h3 className="text">BELIEFS</h3></Link></Dropdown.Item>
+                                <Dropdown.Item><Link to="/" className="link2"><h3 className="text">ELDERS</h3></Link></Dropdown.Item>
                             </Dropdown.Menu>
                         </Dropdown>
                         <Dropdown.Divider />
