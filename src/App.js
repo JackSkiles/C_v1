@@ -19,12 +19,12 @@ class App extends Component {
     }
   }
 
-  componentDidMount(){
-    storage.ref('sermons').child('bakamitai.mp3').getDownloadURL().then(url => {
-      console.log(url);
-      this.setState({url});
-  })
-  }
+  // componentDidMount(){
+  //   storage.ref('sermons').child('bakamitai.mp3').getDownloadURL().then(url => {
+  //     console.log(url);
+  //     this.setState({url});
+  // })
+  // }
   render() {
     return (
       <div className="App">
