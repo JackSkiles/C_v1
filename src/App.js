@@ -7,8 +7,6 @@ import Home from './components/Home';
 import Services from './components/Services';
 import Footer from './components/Footer'
 import firebase from './firebase'
-import TimesList from './components/times-list'
-import AddTimeEntryForm from './components/add-time-entry-form'
 import {storage} from './firebase';
 
 
