@@ -44,11 +44,7 @@ export default function Header() {
         <div className="contain">
             <div className="titles"><Link to="/" className="link1"><h1 className="header">Chattanooga Primitive Baptist Church</h1></Link></div>
             <div className="links">
-<<<<<<< HEAD
-                <Link className="link"><h3 className="text">Home</h3></Link>
-=======
                 <Link to="/" className="link"><h3 className="text">Home</h3></Link>
->>>>>>> 1c680294c1a4ab150b105fdc45c96803112050be
                 <Link to="/services" className="link"><h3 className="text">Services</h3></Link>
                 <Dropdown className="link">
                     <Dropdown.Toggle as={CustomToggle} id="dropdown-custom-components" ><h3 className="text">About Us</h3>
