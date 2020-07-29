@@ -14,8 +14,9 @@ function useTimes() {
                 }))
                 setTimes(newTimes)
             })
-            console.log(times);
     }, [])
+
+    return times
 }
 
 const TimesList = () => {
@@ -33,14 +34,13 @@ const TimesList = () => {
                 </select>
             </div>
             <ol>
-                {/* {times.map((time) =>
-                    <li key={times.id}>
+                {times.map((time) =>
+                        <li key={times.id}>
                         <div className="time-entry">
-                            {time.title}
                             <code className="time">{time.time_seconds} seconds</code>
                         </div>
                     </li>
-                )} */}
+                )}
             </ol>
         </div>
     )
